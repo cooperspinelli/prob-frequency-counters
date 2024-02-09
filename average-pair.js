@@ -3,6 +3,9 @@
 // output: boolean
 // use multiple pointer
 // return true if there is an average
+
+/**Checks if there are two elements in input array that average to
+ * certain number */
 function averagePair(sortedNums, aveNum) {
   let left = 0;
   let right = sortedNums.length - 1;

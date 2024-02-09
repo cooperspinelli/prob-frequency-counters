@@ -1,5 +1,7 @@
 // add whatever parameters you deem necessary & write doc comment
 
+/**Creates a frequency counter of characters of the input string */
+
 function freqCounter(string) {
   let counter = {};
 
@@ -8,6 +10,8 @@ function freqCounter(string) {
   }
   return counter;
 }
+
+/**Checks if word can be build from letters string */
 
 function canConstructWord(word, letters) {
 
