@@ -1,11 +1,7 @@
-// add whatever parameters you deem necessary & write docstring
-//input : sorted arr and num
-// output: boolean
-// use multiple pointer
-// return true if there is an average
+"use strict";
 
 /**Checks if there are two elements in input array that average to
- * certain number */
+ * certain number and returns true or false */
 function averagePair(sortedNums, aveNum) {
   let left = 0;
   let right = sortedNums.length - 1;
